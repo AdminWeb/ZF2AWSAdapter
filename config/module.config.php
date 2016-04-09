@@ -5,6 +5,7 @@ return [
         'factories' => array(
             'AwsClient' => ZF2AWSAdapter\Factory\AwsClientFactory::class,
             'Aws\Simple\EmailBuilder' => ZF2AWSAdapter\Factory\AwsSimpleEmailFactory::class,
+            'Aws\Simple\HtmlParser' => ZF2AWSAdapter\Factory\SimpleEmailHtmlFactory::class,
         ),
     )
 ];
