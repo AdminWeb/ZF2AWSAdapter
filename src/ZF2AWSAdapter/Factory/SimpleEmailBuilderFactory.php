@@ -14,7 +14,7 @@ class AwsSimpleEmailFactory implements FactoryInterface {
 
     public function createService(ServiceLocatorInterface $serviceLocator) {       
         $config = $serviceLocator->get('Config');
-        return new SimpleEmailBuilder($config['aws']['source'],$serviceLocator->get('AwsClient')->createSes());
+        return new SimpleEmailBuilder($config['aws']['ses']['source'],$serviceLocator->get('AwsClient')->createSes());
     }
 
 }
