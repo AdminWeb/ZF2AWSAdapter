@@ -2,9 +2,15 @@
     "name": "adminweb/zf2aws-adapter",
     "description": "Adapter from AWS SDK PHP to Zend Framework 2",
     "require": {
+        "php": ">=5.4",
         "zendframework/zend-view": "^2.6",
         "zendframework/zend-servicemanager": "^3.0",
         "aws/aws-sdk-php": "^3.17"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZF2AWSAdapter\\": "src/ZF2AWSAdapter"
+        }
     },
     "license": "MIT",
     "authors": [
