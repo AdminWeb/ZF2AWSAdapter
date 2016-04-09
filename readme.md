@@ -9,6 +9,7 @@ Requirements:
 - php >= 5.5
 - zendframework/zend-view
 - zendframework/zend-servicemanager
+- aws/aws-sdk-php
 
 Copy the aws.global.php.dist file to config/autoload of project, with name aws.global.php. Fill the region, version, key and secret fields. Version can be 'latest'. Fill ses/source field with email validated on ses service.
 
