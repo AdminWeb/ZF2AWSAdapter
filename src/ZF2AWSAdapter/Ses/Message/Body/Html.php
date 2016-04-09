@@ -78,7 +78,7 @@ class Html implements BodyTypeInterface,ServiceLocatorAwareInterface {
     public function setData($data) {
         $renderer = $this->getServiceLocator()->get('ViewRenderer');
         if(!is_array($data)){
-            throw new InvalidArgumentException("The email data need be of array type!");
+            throw new InvalidArgumentException("The email data content need be of array type!");
         }
         $content = $renderer->render($this->getTemplate(), $data);
         $this->data = $content;
