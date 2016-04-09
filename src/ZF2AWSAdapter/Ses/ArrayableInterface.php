@@ -5,11 +5,8 @@ namespace ZF2AWSAdapter\Ses;
 /**
  * Interface to tranform data in array
  */
-interface Arrayable {
+interface ArrayableInterface {
     
-    /**
-     * Return data in array form
-     */
     public function toArray();
     
 }
