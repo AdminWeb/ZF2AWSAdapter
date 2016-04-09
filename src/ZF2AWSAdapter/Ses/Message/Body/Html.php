@@ -31,14 +31,14 @@ class Html implements BodyTypeInterface,ServiceLocatorAwareInterface {
     private $template = null;
     
     /**
-     * Zend\ServiceManager\ServiceLocatorInterface
-     * @var Zend\ServiceManager\ServiceLocatorInterface 
+     * \Zend\ServiceManager\ServiceLocatorInterface
+     * @var \Zend\ServiceManager\ServiceLocatorInterface 
      */
     private $serviceLocator = null;
 
     /**
      * Constructor
-     * @param Zend\ServiceManager\ServiceLocatorInterface  $serviceLocator
+     * @param \Zend\ServiceManager\ServiceLocatorInterface  $serviceLocator
      */
     public function __construct(ServiceLocatorInterface $serviceLocator) {
         $this->setServiceLocator($serviceLocator);
@@ -113,7 +113,7 @@ class Html implements BodyTypeInterface,ServiceLocatorAwareInterface {
 
     /**
      * Return the ServiceLocator
-     * @return Zend\ServiceManager\ServiceLocatorInterface 
+     * @return \Zend\ServiceManager\ServiceLocatorInterface 
      */
     public function getServiceLocator() {
         return $this->serviceLocator;
@@ -130,8 +130,8 @@ class Html implements BodyTypeInterface,ServiceLocatorAwareInterface {
     }
 
     /**
-     * Set the Zend\ServiceManager\ServiceLocatorInterface object
-     * @param Zend\ServiceManager\ServiceLocatorInterface  $serviceLocator
+     * Set the \Zend\ServiceManager\ServiceLocatorInterface object
+     * @param \Zend\ServiceManager\ServiceLocatorInterface  $serviceLocator
      * @return \ZF2AWSAdapter\Email\Message\Body\Html
      */
     public function setServiceLocator(ServiceLocatorInterface $serviceLocator) {

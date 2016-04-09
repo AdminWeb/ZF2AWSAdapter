@@ -14,19 +14,19 @@ class Body implements Arrayable{
     
     /**
      * Html parse
-     * @var ZF2AWSAdapter\Email\Message\Body\Html
+     * @var \ZF2AWSAdapter\Email\Message\Body\Html
      */
     private $html = null;
     
     /**
      * Text parse
-     * @var ZF2AWSAdapter\Email\Message\Body\Text
+     * @var \ZF2AWSAdapter\Email\Message\Body\Text
      */
     private $text = null;
     
     /**
      *
-     * @var ZF2AWSAdapter\Email\Message\Body\BodyType
+     * @var \ZF2AWSAdapter\Email\Message\Body\BodyType
      */
     private $body = null ; 
     
@@ -50,7 +50,7 @@ class Body implements Arrayable{
     
     /**
      * Get the Html parse email content
-     * @return ZF2AWSAdapter\Email\Message\Body\Html
+     * @return \ZF2AWSAdapter\Email\Message\Body\Html
      */
     public function getHtml() {
         return $this->html;
@@ -58,7 +58,7 @@ class Body implements Arrayable{
 
     /**
      * Get the Text parse email content
-     * @return ZF2AWSAdapter\Email\Message\Body\Text
+     * @return \ZF2AWSAdapter\Email\Message\Body\Text
      */
     public function getText() {
         return $this->text;
@@ -66,7 +66,7 @@ class Body implements Arrayable{
 
     /**
      * Set Html parse email content
-     * @param ZF2AWSAdapter\Email\Message\Body\Html $html
+     * @param \ZF2AWSAdapter\Email\Message\Body\Html $html
      * @return \ZF2AWSAdapter\Email\Message\Body
      */
     public function setHtml(Html $html) {
@@ -76,7 +76,7 @@ class Body implements Arrayable{
 
     /**
      * Set Text parse email content
-     * @param ZF2AWSAdapter\Email\Message\Body\Text $text
+     * @param \ZF2AWSAdapter\Email\Message\Body\Text $text
      * @return \ZF2AWSAdapter\Email\Message\Body
      */
     public function setText(Text $text) {
