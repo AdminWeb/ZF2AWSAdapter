@@ -1,7 +1,9 @@
 ZF2 AWS Adapter
 ===============
 
-This is an AWS SDK PHP Adapter to Zend Framework 2
+This is an AWS SDK PHP Adapter to Zend Framework 2.
+
+Now, only Ses service is supported
 
 Requirements:
 - php >= 5.5
