@@ -1,6 +1,6 @@
 <?php
 
-namespace ZF2AWSAdapter\Email\Message\Body;
+namespace ZF2AWSAdapter\Ses\Message\Body;
 
 use ZF2AWSAdapter\Ses\ArrayableInterface;
 

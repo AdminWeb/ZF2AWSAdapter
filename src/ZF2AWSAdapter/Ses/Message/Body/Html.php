@@ -1,8 +1,8 @@
 <?php
 
-namespace ZF2AWSAdapter\Email\Message\Body;
+namespace ZF2AWSAdapter\Ses\Message\Body;
 
-use ZF2AWSAdapter\Email\Message\Body\BodyTypeInterface;
+use ZF2AWSAdapter\Ses\Message\Body\BodyTypeInterface;
 use Zend\ServiceManager\ServiceLocatorInterface;
 use Zend\ServiceManager\ServiceLocatorAwareInterface;
 use InvalidArgumentException;

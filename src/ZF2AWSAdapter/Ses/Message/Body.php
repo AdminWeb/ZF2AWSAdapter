@@ -2,10 +2,10 @@
 
 namespace ZF2AWSAdapter\Email\Message;
 
-use ZF2AWSAdapter\Email\Arrayable;
-use ZF2AWSAdapter\Email\Message\Body\Html;
-use ZF2AWSAdapter\Email\Message\Body\Text;
-use ZF2AWSAdapter\Email\Message\Body\BodyTypeInterface;
+use ZF2AWSAdapter\Ses\Arrayable;
+use ZF2AWSAdapter\Ses\Message\Body\Html;
+use ZF2AWSAdapter\Ses\Message\Body\Text;
+use ZF2AWSAdapter\Ses\Message\Body\BodyTypeInterface;
 
 /**
  * Tranform the email parse data to email body message
