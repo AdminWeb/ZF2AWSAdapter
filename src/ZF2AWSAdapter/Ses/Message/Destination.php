@@ -6,7 +6,7 @@ use ZF2AWSAdapter\Ses\Arrayable;
 use InvalidArgumentException;
 
 /**
- * Build the destination 
+ * Build the email destination 
  */
 class Destination implements Arrayable {
 
