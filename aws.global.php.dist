@@ -1,0 +1,19 @@
+<?php
+
+<?php
+
+return [
+    'aws' => [
+            'init'=>[
+                'region' => '',
+                'version' => '',
+                'credentials' => [
+                    'key' => '',
+                    'secret' => ''
+                ],
+            ]
+            'ses'[
+                'source' =>''
+            ]
+    ]  
+];
