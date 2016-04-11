@@ -1,6 +1,6 @@
 <?php
 
-namespace ZF2AWSAdapter\Email\Message;
+namespace ZF2AWSAdapter\Ses\Message;
 
 use ZF2AWSAdapter\Ses\Arrayable;
 use ZF2AWSAdapter\Ses\Message\Body\Html;
