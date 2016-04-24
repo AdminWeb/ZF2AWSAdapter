@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ZF2AWSAdapter\\": "src/ZF2AWSAdapter"
+            "ZF2AWSAdapter\\": "src/"
         }
     },
     "license": "MIT",
